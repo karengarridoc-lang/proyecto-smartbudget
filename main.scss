@@ -1,0 +1,11 @@
+// Variables
+$color-primary: #007bff;
+$color-dark: #343a40;
+$color-light: #f8f9fa;
+
+// Estilos básicos
+body { font-family: sans-serif; }
+
+// Importaciones
+@import "layout/header";
+@import "components/cards";

@@ -1,0 +1,15 @@
+/* sass/base/_reset.scss */
+/* Aplicación del modelo de cajas universal */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset de márgenes y paddings por defecto para el body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal no deseado */
+  width: 100%;
+}
